@@ -75,7 +75,7 @@ section .title::after {
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #FFD700; /* Golden accent */
+    color:goldenrod; /* Golden accent */
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -106,7 +106,7 @@ section .title::after {
     font-weight: 600;
 }
 .navbar .logo a span {
-    color: #FFD700; /* BCH golden accent */
+    color: goldenrod; /* BCH golden accent */
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -125,7 +125,7 @@ section .title::after {
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-    color: #FFD700; /* Golden accent on hover */
+    color: goldenrod; /* Golden accent on hover */
 }
 .navbar.sticky .menu li a:hover {
     color: #fff;
@@ -144,7 +144,7 @@ section .title::after {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #FFD700; /* Golden accent */
+    background: goldenrod; /* Golden accent */
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -221,26 +221,26 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: #FFD700; /* Golden accent */
+    color: goldenrod; /* Golden accent */
     font-weight: 500;
 }
 
 /* Button Styling */
 .home .home-content a {
     display: inline-block;
-    background: #FFD700; /* Golden accent */
+    background: goldenrod; /* Golden accent */
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #FFD700;
+    border: 2px solid goldenrod;
     transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-    color: #FFD700;
+    color:goldenrod;
     background: none;
 }
 
@@ -312,11 +312,11 @@ section .title::after {
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #FFD700;
+    border: 2px solid goldenrod;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-    color: #FFD700;
+    color: goldenrod;
     background: none;
 }
 
@@ -380,7 +380,7 @@ section .title::after {
 
 .card .btn {
     display: inline-block;
-    background-color: #FFD700; /* Accent Gold */
+    background-color: goldenrod; /* Accent Gold */
     color: #003366; /* BCH Blue for text in the button */
     padding: 12px 24px;
     text-align: center;
@@ -393,7 +393,7 @@ section .title::after {
 }
 
 .card .btn:hover {
-    background-color: #ffa500; /* Accent Orange on hover */
+    background-color: goldenrod; /* Accent Orange on hover */
     color: #fff; /* White text on hover */
 }
 
@@ -436,19 +436,19 @@ section .title::after {
 /* Button Styling for Skills Section */
 .skills .skills-content .left a{
     display: inline-block;
-    background: #FFD700; /* BCH Golden */
+    background: goldenrod; /* BCH Golden */
     color: #003366; /* BCH Blue */
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #FFD700; /* Border matching the button */
+    border: 2px solid goldenrod; /* Border matching the button */
     transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover{
-    color: #FFD700; /* Golden text on hover */
+    color: goldenrod; /* Golden text on hover */
     background: none;
 }
 
@@ -550,7 +550,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: #FFD700; /* BCH Golden */
+    color: goldenrod; /* BCH Golden */
 }
 
 .contact .contact-content .info .head {
@@ -622,7 +622,7 @@ section .title::after {
     cursor: pointer;
     flex-wrap: nowrap;
     background: #003366; /* BCH Blue */
-    border: 2px solid #FFD700; /* BCH Golden Border */
+    border: 2px solid goldenrod; /* BCH Golden Border */
     transition: all 0.3s ease;
 }
 
